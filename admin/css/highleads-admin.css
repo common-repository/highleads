@@ -1,0 +1,137 @@
+/* Admin Styles */
+.highleads-admin-wrap {
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+/* Logo Styles */
+.highleads-logo-container {
+  margin: 0 0 20px;
+  text-align: center;
+}
+
+.highleads-logo-container img {
+  height: 80px;
+  width: auto;
+}
+
+/* Content Styles */
+.highleads-admin-wrap h1 {
+  margin: 0 0 20px;
+  padding: 0;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.highleads-admin-wrap h2 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+/* Form Styles */
+.highleads-form-container {
+  margin: 0 auto 30px;
+  max-width: 500px;
+}
+
+.highleads-form-group {
+  margin-bottom: 15px;
+}
+
+.highleads-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+input[type="text"].regular-text {
+  width: 100%;
+}
+
+.description {
+  margin: 5px 0 0;
+  color: #646970;
+  font-size: 13px;
+}
+
+/* Required Field */
+.required {
+  color: #d63638;
+  margin-left: 3px;
+}
+
+/* Submit Button */
+.highleads-submit-btn-container {
+  margin: 20px 0;
+  text-align: right;
+}
+
+/* Help Section */
+.highleads-help {
+  margin: 20px 0 0;
+  text-align: left;
+  border-top: 1px solid #dcdcde;
+  padding-top: 20px;
+}
+
+.highleads-help h3 {
+  font-size: 14px;
+  line-height: 1.3;
+  margin: 0 0 12px;
+  font-weight: 600;
+}
+
+.highleads-contact {
+  text-align: left;
+}
+
+.highleads-contact-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+  color: #2271b1;
+  line-height: 1.3;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.highleads-contact-link:hover {
+  color: #135e96;
+  background: #f0f0f1;
+}
+
+.highleads-contact-link .dashicons {
+  margin-right: 6px;
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
+}
+
+/* Configuration Description */
+.config-description {
+  margin: -10px 0 15px;
+  color: #646970;
+  font-size: 13px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 782px) {
+  .highleads-admin-wrap {
+      padding: 0 10px;
+  }
+  
+  .highleads-form-container,
+  .highleads-help {
+      max-width: 100%;
+  }
+
+  .highleads-logo-container img {
+      height: 60px;
+  }
+}
